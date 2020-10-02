@@ -1,0 +1,6 @@
+user_input = input("provide  chain of numbers separated by ' , ' : ")
+numbers_list = user_input.split(",")
+print(numbers_list,type(numbers_list))
+numbers_tuple = tuple(numbers_list)
+# or just do split in one line in case only tuple is needed > numbers_tuple = tuple(user_input.split(","))
+print(numbers_tuple, type(numbers_tuple))
